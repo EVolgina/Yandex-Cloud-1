@@ -26,7 +26,7 @@ PING google.com (173.194.221.100) 56(84) bytes of data.
 64 bytes from lm-in-f100.1e100.net (173.194.221.100): icmp_seq=2 ttl=58 time=27.9 ms
 64 bytes from lm-in-f100.1e100.net (173.194.221.100): icmp_seq=3 ttl=58 time=27.9 ms
 ```
-![VM]()
+![VM](https://github.com/EVolgina/Yandex-Cloud-1/blob/main/VM.PNG)
 
 ```
 Проверяем пинг с публичной машины в приватную сеть
