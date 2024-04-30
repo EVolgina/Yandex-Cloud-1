@@ -41,5 +41,11 @@ PING 192.168.20.22 (192.168.20.22) 56(84) bytes of data.
 ubuntu@fhmjpsiimb491p1slsq3:~/.ssh$ ssh -i /home/vagrant/.ssh/id_ed25519 ubuntu@192.168.20.22
 Warning: Identity file /home/vagrant/.ssh/id_ed25519 not accessible: No such file or directory.
 Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-156-generic x86_64)
+
+ubuntu@fhmqp1vvfq3k15f03q4a:~$ ping google.com
+PING google.com (173.194.73.100) 56(84) bytes of data.
+64 bytes from 192.168.20.22: icmp_seq=1 ttl=61 time=1.20 ms
+64 bytes from 192.168.20.22: icmp_seq=2 ttl=61 time=0.498 ms
+64 bytes from 192.168.20.22: icmp_seq=3 ttl=61 time=0.599 ms
 ```
-![Ping]()
+
