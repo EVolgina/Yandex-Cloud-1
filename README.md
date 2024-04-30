@@ -9,11 +9,13 @@
 - Создать в VPC subnet с названием private, сетью 192.168.20.0/24.
 - Создать route table. Добавить статический маршрут, направляющий весь исходящий трафик private сети в NAT-инстанс.
 - Создать в этой приватной подсети виртуалку с внутренним IP, подключиться к ней через виртуалку, созданную ранее, и убедиться, что есть доступ к интернету.
-  [Main.tf](https://github.com/EVolgina/Yandex-Cloud-1/blob/main/main.tf) [Variables]()
-- установила
+  [Main.tf](https://github.com/EVolgina/Yandex-Cloud-1/blob/main/main.tf) [Variables](https://github.com/EVolgina/Yandex-Cloud-1/blob/main/variables.tf)
+- установила окружение для работы
+```
 vagrant@vagrant:~$ terraform version
 Terraform v1.8.2
 on linux_amd64
+```
 - создала ключи id_ed25519 и id_ed25519.pub
 - развернула terraform apply  ---Apply complete! Resources: 7 added, 0 changed, 0 destroyed.
 ```
