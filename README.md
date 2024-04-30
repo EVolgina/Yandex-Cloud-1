@@ -9,7 +9,7 @@
 - Создать в VPC subnet с названием private, сетью 192.168.20.0/24.
 - Создать route table. Добавить статический маршрут, направляющий весь исходящий трафик private сети в NAT-инстанс.
 - Создать в этой приватной подсети виртуалку с внутренним IP, подключиться к ней через виртуалку, созданную ранее, и убедиться, что есть доступ к интернету.
-[Teraform]()
+  [Main.tf](https://github.com/EVolgina/Yandex-Cloud-1/blob/main/main.tf) [Variables]()
 - установила
 vagrant@vagrant:~$ terraform version
 Terraform v1.8.2
